@@ -26,7 +26,7 @@ function exceptionHandler($exception) {
     echo "<h1>An error occurred</h1>";
     echo "<p>Please try again later</p>";
   }
-  exit():
+  exit();
 }
 
 set_error_handler("errorHandler");
